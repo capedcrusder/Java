@@ -1,0 +1,27 @@
+-> released in 1995;
+-> platform independent language unlike C/C++(before java if there are two platforms the code executable on platform 1 is not executable at platform 2)
+-> With the introduction of Java the code executable at platform 1 will be executable at platform 2 due to JVM;
+
+JVM(Java Virtual Machine) :
+                       ->macine specific software i.e responsible for running bytecode on platform
+                       ->JVM convert java program into bytecode which can run on any platform which have JVM.
+                       ->JVM is pre-installed on machines that's java is called as machine independent.
+                       ->JVM is platform dependent, it requires OS to run.
+
+
+PROPERTIES : 
+            1) Statically Typed :- Have to declare every variable that is used unlike python/javascript.
+                                :-memory is alloted at the compile time.
+
+            2) Secure :- JVM ensures no bytecode runs without monitoring(As java doesn't have pointers so there is no way to access memory)
+
+            3) Simple
+            4) Popular
+
+
+ INSTALLING JAVA :
+                 ->  Download JDK(Java Development Kit)
+                 -> JDK comprises of JVM[JRE], Compiler & Development Tools
+
+IDE : VS CODE, Eclipse, IntelliJ
+
