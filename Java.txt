@@ -2,13 +2,6 @@
 -> platform independent language unlike C/C++(before java if there are two platforms the code executable on platform 1 is not executable at platform 2)
 -> With the introduction of Java the code executable at platform 1 will be executable at platform 2 due to JVM;
 
-JVM(Java Virtual Machine) :
-                       ->macine specific software i.e responsible for running bytecode on platform
-                       ->JVM convert java program into bytecode which can run on any platform which have JVM.
-                       ->JVM is pre-installed on machines that's java is called as machine independent.
-                       ->JVM is platform dependent, it requires OS to run.
-
-
 PROPERTIES : 
             1) Statically Typed :- Have to declare every variable that is used unlike python/javascript.
                                 :-memory is alloted at the compile time.
@@ -21,7 +14,39 @@ PROPERTIES :
 
  INSTALLING JAVA :
                  ->  Download JDK(Java Development Kit)
-                 -> JDK comprises of JVM[JRE], Compiler & Development Tools
+                 -> JDK comprises of JRE Compiler & Development Tools
+                 -> JRE comprises JVM
+                 -> JVM comprises JIT 
+
+  JDK(Java Development Kit) :
+                        -> opensource software provided by oracle that contains all the necessary tools to run the Java Program                
+
+  JRE(Java Runtime Environment) :-
+                         1)  part of JDK provides the runtime environment for Java program that includes JVM
+                         2)  provides libraries   
+
+  JVM(Java Virtual Machine) :
+                       ->macine specific software i.e responsible for running bytecode on platform
+                       ->JVM is pre-installed on machines
+                       ->JVM is platform dependent, it requires OS to run.
+                       ->JVM comprises of JIT(Just in Time Compiler)    
+
+  JIT(Just in Time Compiler) :
+                            -> part of JVM
+                            -> converts byte code into the machine code i.e 0 & 1(binary numbers)
+                        
+                Working -> JVMM interprets bytecode
+                        -> Suppose loops are executed multiple times one compiled JIT converts them into machine code
+                        -> & they are cached so when future calls are made to those method/loops, it will run faster because they don't need interpretation. 
+                                                                                   
 
 IDE : VS CODE, Eclipse, IntelliJ
 
+FLOW OF PROGRAM :
+                 
+                 Java Code -> Compiler(compiles) -> Bytecode(.class file)  -> JVM(Searches for public static void main(String[args] method to execute code  )) 
+
+               public :- Access Modifier
+               static :- It allows JVM to call the method without creating object(instance of method)
+               void   :- doesn't have a return type.
+               main   :- entry point of the program(JVM searches for main method)
