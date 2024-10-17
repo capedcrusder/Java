@@ -1,0 +1,15 @@
+Varibale :
+        -> Variable is used to store the data temporarly while processing
+        -> It is like a box which stores the data & the type is attached to it.
+
+        Eg :-
+             int i = 5;
+                -> int is the type of value 
+                -> i is varibale name which holds int value
+
+
+ Naming Convention :-
+                  -> The declaration of variable names follows Camel Case Convention
+                  -> special characters can't be used 
+
+                  Eg :- ab, AB, aB, aBc, a1, a12, _a, a_b  

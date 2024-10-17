@@ -1,0 +1,47 @@
+There are two types of Data Types-:
+
+1)Primitive Data Types :-
+
+                       a) Integer(byte, short, int, long)
+                              (i) byte -> stores small value
+                                       -> size of byte is 8 bit i.e 1 bytes
+
+                                       Eg :- byte b = 1;
+
+                              (ii) short -> stores values larger than byte & smaller than int
+                                         -> size of short is 16 bit i.e 2 bytes
+
+                                         Eg :- short s = 12;
+
+                              (iii)  int -> stores smaller numbers
+                                         -> size of int is 32 bit i.e 4 bytes
+
+                                         Eg :- 234;
+
+                              (iv)  long -> stores larger values
+                                         -> sive is 64 bit i.e 8 bytes
+
+                                         Eg :- long l=1234567;
+
+                       b) Float(float,double)
+                                             -> by deafult in java the compiler always takes decimal values as double becausefloat has limited precision value
+                                             -> user have to explicitly mention that he is entering float value
+                                              
+                                              Eg -: float f = 3.14f 
+                                                    double d = 3.142345; 
+
+
+
+                       c) char :-
+                                  can hold num as well as alphabet
+
+                                  Eg :- 
+                                  char a ='4';
+                                  char b = 'f';
+
+
+                       d) boolean(true/false) :- 
+                                              -> always gives the value true/false as output
+
+
+ 
