@@ -1,0 +1,17 @@
+Type Conversion :
+              -> converting a value from one datatype to another datatype
+
+There are two type of Conversions
+1) Implicit Conversion :- 
+                    -> When the compiler converts one data type into another by itself it is called implicit conversion
+                    -> also called as Widening Conversion   
+         
+       byte->short->int->long->float->double  
+
+2) Explicit Conversion :- 
+                     -> When the user has to mention in the code to cast one data type into another it is called as Explicit Conversion. 
+                     -> also called as casting/Narrowing             
+
+
+ NOTE:-
+      Smaller size data types can be converted into larger size data types implicitly as they can hold small values                      
