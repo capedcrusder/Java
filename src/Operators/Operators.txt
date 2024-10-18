@@ -1,0 +1,76 @@
+-> Operators are used to perform operation on program in java.
+-> There are 4 types of operators.
+
+1) Arithmetic Operators :-
+                       -> Performs mathematics operations 
+                       (i)   +  -> Addition Operator  i.e x+y
+                       (ii)  -  -> Subtraction        i.e x-y or y-x
+                       (iii) *  -> Multiplication     i.e x*y
+                       (iv)  /  -> Division           i.e x/y or y/x     -> gives quotient ignores remainder
+                       (v)   %  -> Modulus Operator   i.e x%y or y%x     -> gives remainder of two values
+                       (v)  ++  -> Increment Operator i.e x++ -> x+1
+                       (vi) --  -> Decrement Operator i.e x-- -> x-1
+
+                       -> If there are more than two operators then priority of opertions performed will be 
+                            BODMAS(Bracket of Division,Multiplication, Addition & Subtraction)
+
+
+2) Assignment Operator :-
+                       (i)   =  -> Assign Values  i.e int x=1;
+                       (ii)  += -> Addition       i.e x+=y -> x=x+y
+                       (iii) -= -> Subtraction    i.e x-=y -> x=x-y
+                       (iv)  *= -> Multiplication i.e x*=y -> x=x*y
+                       (v)   /= -> Division       i.e x/=y -> x=x/y  
+                       (vi)  %= -> Modulus        i.e x%=y -> x=x%y
+
+
+3) Relational Operator :-
+                       ->  Compares two values & results a boolean value
+
+                       (i)   < ->  less than
+                       (ii)  > ->  greator than
+                       (iii) <= -> less thanor equal too
+                       (iv)  >= -> greator than or equal too
+                       (v)   != -> not equal too
+
+4)Logical Operator :-
+                  -> Logical operator is used to combine the result of two/more relational operator
+
+                  (i) AND Operator(&&) -> If both boolean values are true than result will be true else false
+
+                                        T T -> T
+                                        T F -> F 
+                                        F T -> F 
+                                        F F -> F   
+
+                   (ii) OR Operator(||) -> if any value is True than result is true 
+
+                                   T T -> T
+                                   T F -> T       
+                                   F T -> T       
+                                   F F -> F
+
+                    (iii) NOT Operator(!) -> reverse the boolean value
+
+                                   T -> F        
+                                   F -> T                 
+                     
+5) Ternary Operator : 
+                   -> Consice version of if-else statement
+
+                   Syntax -> condition ? Value1:Value2  
+
+
+
+
+ NOTE:- SHORT CIRCUITING IN LOGICAL OPERATORS
+
+ 1) AND Operation :-
+                -> if any of the boolean value is false than whole value will be false   
+                -> if compiler gets the first value as false it will not check for the second value
+                -> because the resultant will be false. This is called short circuiting in AND;
+
+2) OR Operation :- 
+               -> if any boolean value is true than whole result will be true 
+               -> if JVM gets the first value as True than it will not check for the second value
+               -> because the resultant will be true. This is called short circuiting in OR;                                            
